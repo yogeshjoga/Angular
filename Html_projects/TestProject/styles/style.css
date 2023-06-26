@@ -1,0 +1,11 @@
+.myName{
+    color : red;
+    font-style: italic;
+    font-weight: 100;
+}
+.table{
+    table-layout: auto;
+    border: 0cap;
+    margin: 25px 0;
+    min-width: 400px;
+}
