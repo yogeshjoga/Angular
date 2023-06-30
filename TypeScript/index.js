@@ -3,7 +3,7 @@ console.log("Hello the World!");
 var age = 26;
 // re-assign the values, its not accepted from typeScript
 // age = 'a';
-function add(a, b) {
+function add2(a, b) {
     return a + b;
 }
 var c = add2(10, 20);

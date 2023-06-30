@@ -8,8 +8,8 @@ var age: number = 26;
 // age = 'a';
 
 
-function add(a:number, b: number):number;
- function add(a: number,b: number):number{
+ function add2(a:number, b: number):number;
+ function add2(a: number,b: number):number{
     return a+b;
 }
  
