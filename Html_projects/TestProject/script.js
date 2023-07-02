@@ -26,3 +26,6 @@ function add1(num1, num2){
     document.getElementById("sol").innerHTML="c";
     document.getElementById("sol").innerHTML = "d";
 }
+
+
+document.getElementById("hello");
