@@ -1,0 +1,62 @@
+:root{
+    --c-mycolor : lightgray;
+}
+
+#logo{
+    background-color: var(--c-mycolor);
+    margin-bottom: 10px;
+    min-height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#nav_bar{
+    background-color: var(--c-mycolor);
+    text-align: center;
+    min-height: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+#features_div{
+    background-color: var(--c-mycolor);
+    min-height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+/* body content */
+
+#parent_div{
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 400px;
+}
+
+.clear_fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#parent_div .c{
+    width: 30%;
+    border-radius: 100%;
+    min-height: 400px;
+    background-color: var(--c-mycolor);
+    float: left;
+
+}
+#parent_div .c:nth-child(2){
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.footer{
+    background-color: var(--c-mycolor);
+    width: 100%;
+    min-height: 40px;
+    text-align: center;
+    line-height: 40px;
+}

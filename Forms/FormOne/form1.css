@@ -1,0 +1,15 @@
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#main_div{
+    width: 20%;
+    min-height: 600px;
+    align-items: center;
+    float: right;
+}

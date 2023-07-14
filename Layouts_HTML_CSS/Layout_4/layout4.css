@@ -1,0 +1,51 @@
+/* Global_Variables */
+:root{
+    --c-mycolor:lightgray;
+}
+
+#logo{
+    background-color: var(--c-mycolor);
+    width: 100%;
+    min-height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.clear_fix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+#side_bar{
+    background-color: var(--c-mycolor);
+    width: 50%;
+    float: left;
+    min-height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
+
+#side_bars{
+    width: 42.5%;
+    float: right;
+}
+
+#upper_box,#lower_box{
+  background-color: var(--c-mycolor);
+  min-height: 200px;
+  text-align: center;
+  line-height: 200px;
+}
+#upper_box{
+    margin-bottom: 5px;
+}
+#mycont{
+    margin-bottom: 10px;
+}
+#footer{
+    background-color: var(--c-mycolor);
+    width: 100%;
+    min-height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
