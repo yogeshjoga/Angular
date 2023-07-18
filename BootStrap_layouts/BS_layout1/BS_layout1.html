@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BS_Layout</title>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="BS_layout1.css">
 </head>
 <body>
-    
+
+    <!-- navbar-developing -->
+    <div class="navbar navbar-dark bg-dark navbar-expand-md">
+        <a href="" class="navbar-brand">Logo</a>
+        <div class="nav-item">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse " id="menu">
+            <ul class="navbar-nav ms-auto">
+
+                <!-- dropdown -->
+                <li class=" dropdown nav-item">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Items</a>
+               
+                    <ul class="dropdown-menu bg-dark" id="dropm">
+                        <li class="dropdown-item">
+                            <a href="" class="nav-link">i love you </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="" class="nav-link">i love you baby</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="" class="nav-link">i love you darling</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="" class="nav-link">i love you html</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Siri</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Developer</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">about</a>
+                </li>
+              
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    <div class="container  md-5" id="mar">   
+       Hello this is <small class="text-muted"> Yogesh Joga</small>
+    </div>
+
+
+
+    <div class="row container">
+        <div class="col bg-primary" id="myrow">Hello this is yogesh joga</div>
+        <div class="col bg-danger" id="myrow">Hello this is yogesh joga</div>
+        <div class="col bg-primary" id="myrow">Hello this is yogesh joga</div>
+        <div class="col bg-danger" id="myrow">Hello this is yogesh joga</div>
+        <div class="col bg-primary" id="myrow">Hello this is yogesh joga</div>
+
+    </div> 
+
+   
+    <!-- footer-design -->
+
+    <footer class="bg-dark text-white pb-4 pt-5 mt-5">
+
+
+    </footer>
+   
 </body>
-</html>
+</html> 
