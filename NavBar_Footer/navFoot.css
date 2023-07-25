@@ -6,3 +6,12 @@
 #hero_img{
     border-radius: 20px;
 }
+#cols_body{
+    height: 500px;
+    font-size: small;
+    background-color: black;
+}
+#center_col{
+    margin-left: 13px;
+    margin-right: 13px;
+}
